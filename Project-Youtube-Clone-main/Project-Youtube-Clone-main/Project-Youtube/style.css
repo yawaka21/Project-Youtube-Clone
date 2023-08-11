@@ -1,0 +1,101 @@
+/* Body */
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 62px;
+    height: 3000px;
+    padding-left: 62px;
+}
+
+/* Thumnail Picture */
+.thum1{
+    width: 100%;
+}
+
+/* class Div For The discription1,Channel Name and Views */
+.discription{  
+    margin-left: 5px;
+}
+
+/* Video Discription and style*/
+.discription1{
+    font-weight: bold;
+    margin-top: 0px;
+}
+/* Channel Styling */
+.channel{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #606060;
+    margin-bottom: 0px;
+}
+/* Views Styling */
+.view{
+    font-size: 15px;
+    color: #606060;
+    margin-top: 5px;
+
+}
+/* Picture Style */
+.pic{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+/* Class Div for Video Discription */
+.div2{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+   margin-top: 10px;
+   
+}
+/* The Parent Class */
+.display-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    
+}
+/* Flex box Div and Header Style */
+.flex-main
+{
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom-color: rgb(252, 250, 250);
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+    background-color: white;
+
+    
+}
+.left{
+  
+    display: flex;
+    align-items: center;
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    margin-right: 70px; 
+    flex: 1;
+    max-width: 600px;
+    margin-left: 50px;
+
+}
+.right{
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}

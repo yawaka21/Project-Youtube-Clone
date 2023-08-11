@@ -1,0 +1,42 @@
+.leftheader{
+   
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 60px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.homsection{
+    width: 30px;
+}
+.explore
+{
+    width: 30px;
+}
+.library
+{
+    width: 30px;
+}
+.originals
+{
+    width: 30px;
+}
+.subscriptions
+{
+    width: 30px;
+}
+.youtube-music
+{
+    width: 30px;
+}
+
+.leftheader p {
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: bold;
+}
